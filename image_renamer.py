@@ -1,20 +1,12 @@
-import os, glob
 from pathlib import Path
+import os
 
+counter = 0
+directories = 0
+path = Path(input('Enter your file directory: '))
+filename = str(input('Enter yot file name:'))
 
-class Program:
-    def __init__(self, path: Path):
-        self.path = path
-
-    @staticmethod
-    def counter(self):
-        count = 0
-        for f in os.listdir(self.path):
-            count += 1
-        print(count)
-
-
-print(Program(r'E:\program\memes'))
-
-
-
+for f in os.listdir(path):
+    counter += 1
+    os.rename(os.path.join(path, f),
+              os.path.join(path, filename + str(counter) + '.jpg'))
