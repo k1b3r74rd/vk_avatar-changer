@@ -10,3 +10,4 @@ for f in os.listdir(path):
     counter += 1
     os.rename(os.path.join(path, f),
               os.path.join(path, filename + str(counter) + '.jpg'))
+
