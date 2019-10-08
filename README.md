@@ -18,7 +18,7 @@ Avatar auto-changer program. Place, where I use it ---> https://vk.com/avatarcha
      You should remember, if you insert group ID, you should put minus in front of ID, like that: group_id = -ID .
      If you put profile ID, you don't need to put minus.
   
-  4. Put your avatars into 'pictures' directory.
+  4. Put your avatars into 'pictures' directory. There are already some pics in it, you can delete them if you want.
   
   5. Start .py file.
   
@@ -39,6 +39,6 @@ Avatar auto-changer program. Place, where I use it ---> https://vk.com/avatarcha
       чтобы получилось: group_id = -ID .
       Если вы вставляете ID профиля, этого делать не надо.
       
-   4. Скопируйте ваши аватары в папку 'pictures'
+   4. Скопируйте ваши аватары в папку 'pictures'. Там уже есть несколько картинок, вы можете их удалить.
    
    5. Запустите .py файл.
