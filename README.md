@@ -15,7 +15,7 @@ Avatar auto-changer program. Place, where I use it ---> https://vk.com/avatarcha
      
      
   3. Insert your access token, profile/group ID and desired time in the settings.ini. 
-     You should remember, if you insert group ID, you should put minus in front of ID, like that: group_id = -ID
+     You should remember, if you insert group ID, you should put minus in front of ID, like that: group_id = -ID .
      If you put profile ID, you don't need to put minus.
   
   4. Put your avatars into 'pictures' directory.
@@ -36,7 +36,7 @@ Avatar auto-changer program. Place, where I use it ---> https://vk.com/avatarcha
       
    3. Вставьте ваш токен, ID профиля/группы и желаемое время в settings.ini.
       Вы должны знать, что если вы вставляете ID группы, то вы должны поставить минус перед самим ID, 
-      чтобы получилось: group_id = -ID
+      чтобы получилось: group_id = -ID .
       Если вы вставляете ID профиля, этого делать не надо.
       
    4. Скопируйте ваши аватары в папку 'pictures'
